@@ -1,0 +1,53 @@
+.create-survey-container {
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-type-container {
+    margin-bottom: 15px;
+}
+
+.question-type-container select {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.question-container {
+    width: 420px;
+    padding: 5px;
+}
+
+.answer-container {
+    width: 420px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-container input {
+    width: 420px;
+    padding: 5px;
+    height: 20px;
+    margin: 5px;
+}
+
+.survey-container button {
+    padding: 5px;
+    margin: 20px;
+    background: rgb(233, 229, 229);
+    cursor: pointer;
+}
+
+.survey-container span {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid;
+    margin: 5px;
+    background: rgb(233, 229, 229);
+    cursor: pointer;
+}
